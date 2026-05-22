@@ -13,6 +13,33 @@ version and on 2025 Windows Server Evaluation/Developer Destop version.
 
 ## Infrastructure Architecture
 
+## Nested Virtualization Stack:
+
+Architecture Overview and Successful Deployment
+
+Linux Host
+|
+|__ QEMU / KVM Hypervisor
+|   |
+|   |_______ Windows 11 Pro VM
+|           |
+|           |
+|           |_________________ Kali Linux VM     
+|                             |
+|                             |
+|                             |____________ Docker Engine
+|                                          |                              
+|                                          |____ Container Validation Workload     
+|            
+| 
+|           
+| 
+|
+|
+|
+Host/Programs, files and Neworking
+
+
 ### Host System
 
 The primary host system runs bar metal Linux OS and act as the main hypervisor environment responsible for 
@@ -95,39 +122,3 @@ This project was created to study:
 
 The nested virtualization environment has been provisionned sucessfully and documented through Github-based
 infrastructure workflow
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
