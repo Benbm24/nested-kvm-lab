@@ -1,10 +1,8 @@
 ## Acknowledgements
 
 I would like to express my sincere gratitude to the academic communities at both CDI College in Edmonton 
-and Southern Alberta Institute of Technology(SAIT) in Calgary, also to my instructors Miss Sharon at SAIT,
-Mr. Raphael at Apple Cupertino, Mr. Salman Rathor, Mr. Muhammad Kashif at CDI and my family and friends 
-Miss Ashely, Miss Sumita, Mr.Howard, Mr. Ahmed and Mr. Chris for their continuing encouragement and support
-during the development of this project.
+and Southern Alberta Institute of  Technology(SAIT)  in Calgary, also special thanks to my instructors , 
+my family and my friends for their encouragement.
 
 ## Nested KVM LAB
 
@@ -14,7 +12,7 @@ nested Virtual Machines and Containers running inside the Windows 11 Pro and Kal
 Specifically in the Kali-Linux Vertual Machine running containers inside it , demonstrating nested 
 containerized workloads within nested vertualization environments.
 Vertual Machines are considered one of the core technologies behind modern cloud computing infrastructure.
-They provide worload isolation, flexible ressources provisioning , scalability and improving security
+They provide workload isolation, flexible ressources provisioning , scalability and improving security
 bounderies between operating systems and services.
 
 This Lab was built to study:
